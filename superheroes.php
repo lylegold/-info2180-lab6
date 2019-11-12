@@ -1,5 +1,4 @@
 <?php
-header("Acess-Control-Allow-Origin: *");
 $superheroes = [
   [
       "id" => 1,

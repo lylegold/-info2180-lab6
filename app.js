@@ -1,4 +1,4 @@
-window.onload=ex;
+window.onload=act;
 
 function act()
 {
@@ -16,8 +16,8 @@ req.onreadystatechange = function()
        alert(req.responseText);
         }
     };
-req.open("GET", "http://localhost:8080/superheroes.php", true);
+req.open("GET", "superheroes.php");
 req.send();
-})
+});
 
 }
