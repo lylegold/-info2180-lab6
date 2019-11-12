@@ -81,6 +81,6 @@ $superheroes = [
 <?php endforeach; ?>
 
 
-  <?php if($_GET['query'] != $superhero['name'] && $_GET['query'] != "" && $_GET['query'] != $superhero['alias']):?>
+  <?php if($_GET['query'] != $superhero['name'] && $_GET['query'] != $superhero['alias']):?>
     <h2>"Superhero not found" </h2>
   <?php endif;?>
